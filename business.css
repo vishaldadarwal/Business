@@ -1,0 +1,400 @@
+body{
+    margin:0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+.sectionfont p
+{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 14px; 
+}
+ .sectionfont h4
+{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700; 
+}
+.sectionfont h6
+{
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif; 
+    font-weight: bold;
+}
+
+
+    
+
+/* navbar */
+ #navbar-top{
+     background-color:#6c757d;
+     color:#ffffff;
+ }
+ .navjj{
+     background-color: red;
+ }
+ .nav-link
+ {
+    color: #ffffff;
+ }
+ .nav-item a
+ {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold; 
+    text-decoration: none;
+    color:#ffffff;
+    
+ }
+
+.nav-link:hover 
+{
+    color:#ffffff;
+}
+.nav-item hr
+{
+    position: relative;
+    top:18px;
+    border:1px solid #ffffff;
+    opacity: 0;
+}
+
+.hrline
+{
+    border:0.1px solid  #97989d;
+}
+.nav-item:hover hr
+{
+    opacity: 9;
+}
+
+.section-top h2 
+{
+    
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* about*/
+
+
+
+
+/* section protfolio */
+
+#img1
+{
+    position: relative;
+}
+#img2{
+    opacity: 0;
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    padding-right:10px!important;
+    padding-left: 10px!important;
+
+
+}
+#sectionpro span
+{
+    opacity: 0;
+}
+#sectionpro p
+{
+    opacity: 0;
+}
+
+ #sectionpro:hover #img2 
+{
+    opacity: 9;
+    
+}
+#sectionpro:hover span
+{
+    opacity: 9;
+}
+#sectionpro:hover p 
+{
+    opacity: 9;
+}
+
+
+ol.section-indic
+ {
+    position: absolute;
+    bottom: 20px;
+    margin: 0;
+    left: 0;
+    right: 0;
+    width: auto;
+ }
+ 
+ 
+ 
+ ol.section-indic li 
+ {
+    
+    margin-left: .5rem;
+    margin-right: .5rem;
+    border-radius: 50%;
+    height:0.5rem;
+    width:0.5rem;
+    border:1px solid rgb(77, 114, 235);
+    
+ }
+ 
+ ol.section-indic li.active {
+    background:rgb(77, 114, 235);
+ }
+
+
+ /* section team*/
+
+ .a 
+ {
+     width: 30px;
+    opacity: 0;
+    padding-bottom:20px;
+}
+ .photo:hover .fa
+ {
+    opacity: 9;
+   
+}
+  .photo:hover
+  {
+      box-shadow: 0px 100px 200px -70px rgb(170, 166, 166);
+      border-radius: 10%;
+      
+  }
+  .section-f a
+  {
+      color:#343a40;
+  }
+  .section-f a :hover 
+  {
+      color:rgb(77, 114, 235);
+  }
+
+
+  /* testmonlails*/
+
+
+
+  ol.section-g1
+ {
+    position: absolute;
+    bottom: 20px;
+    margin: 0;
+    left: 0;
+    right: 0;
+    width: auto;
+ }
+ 
+ 
+ 
+ ol.section-g1 li 
+ {
+    
+    margin-left: .5rem;
+    margin-right: .5rem;
+    border-radius: 50%;
+    height:0.5rem;
+    width:0.5rem;
+    background:gray;
+    border:1px solid #ffffff;
+    
+ }
+ 
+ ol.section-g1 li.active {
+    background:#ffffff;
+ }
+ ol.section-g1 li:hover {
+    background:#ffffff;
+    
+ }
+ 
+
+ /* customer support*/
+
+ .section-h1 ul
+ {
+     list-style-type:none;
+     padding-left:0 ;
+ }
+ .checkp
+ {
+     font-size:13px;
+ }
+ .section-h1 li
+ {
+    background:url(assets/icon/check.png) no-repeat ;
+    background-size: 12px 12px;
+    background-position: left ;
+    padding-left:25px;
+    font-size:13px;
+    margin-bottom:6px;
+ }
+
+
+ /*section  blog */
+
+ .section-j1 .card:hover
+ {
+    box-shadow: 0px 100px 200px -100px rgb(170, 166, 166);
+ }
+
+ /* section form*/
+
+ /* footer */
+
+ .fa:hover
+ {
+     color: white;
+ }
+ .section-footer p{
+     font-size: 12px;
+ }
+
+
+    
+   
+
+ @media screen and (max-width:991px)
+{
+    
+    .nav-item hr 
+    {
+        opacity: 0;
+    }
+    .nav-item:hover hr 
+    {
+        opacity: 0;
+    }
+    
+    .section-a
+    {
+        padding-left:2.5rem !important;
+        padding-right:2.5rem !important; 
+    }
+    .section-b
+    {
+        padding-left:2.5rem !important;
+        padding-right:2.5rem !important; 
+    }
+    .section-c
+    {
+        padding-left:2.5rem !important;
+        padding-right:2.5rem !important; 
+    }
+    .section-d
+    {
+        padding-left:2.5rem !important;
+        padding-right:2.5rem !important; 
+    }
+    .section-f
+    {
+        padding-left:2.5rem !important;
+        padding-right:2.5rem !important; 
+    }
+    .section-g
+    {
+        padding-left:2.5rem !important;
+        padding-right:2.5rem !important; 
+    }
+    .section-h
+    {
+        padding-left:2.5rem !important;
+        padding-right:2.5rem !important; 
+    }
+    .section-i
+    {
+        padding-left:2.5rem !important;
+        padding-right:2.5rem !important; 
+    }
+    .section-j
+    {
+        padding-left:2.5rem !important;
+        padding-right:2.5rem !important;  
+    }
+    .section-k
+    {
+        padding-left:2.5rem !important;
+        padding-right:2.5rem !important; 
+    }
+    .section-l
+    {
+        padding-left:2.5rem !important;
+        padding-right:2.5rem !important; 
+    }
+    .section-footer
+    {
+        padding-left:2.5rem !important;
+        padding-right:2.5rem !important; 
+    }
+
+   
+}
+
+@media screen and (max-width:769px)
+{
+    
+    .section-a
+    {
+        padding-left:1rem !important;
+        padding-right:1rem !important;  
+    }
+    .section-b
+    {
+        padding-left:1rem !important;
+        padding-right:1rem !important; 
+    }
+    .section-c
+    {
+        padding-left:1rem !important;
+        padding-right:1rem !important; 
+    }
+    .section-d
+    {
+        padding-left:1rem !important;
+        padding-right:1rem !important; 
+    }
+    .section-f
+    {
+        padding-left:1rem !important;
+        padding-right:1rem !important; 
+    }
+    .section-g
+    {
+        padding-left:1rem !important;
+        padding-right:1rem !important; 
+    }
+    .section-h
+    {
+        padding-left:1rem !important;
+        padding-right:1rem !important; 
+    }
+    .section-i
+    {
+        padding-left:1rem !important;
+        padding-right:1rem !important; 
+    }
+    .section-j
+    {
+        padding-left:1rem !important;
+        padding-right:1rem !important;  
+    }
+    .section-k
+    {
+        padding-left:1rem !important;
+        padding-right:1rem !important; 
+    }
+    .section-l
+    {
+        padding-left:1rem !important;
+        padding-right:1rem !important; 
+    }
+    
+
+   
+}
